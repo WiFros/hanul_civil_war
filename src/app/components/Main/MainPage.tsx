@@ -1,12 +1,9 @@
 import React from 'react';
 import { Card, CardBody } from "@nextui-org/react";
-import NavbarComponent from '../components/Main/Navbar';
-import Header from '../components/Main/Header';
-import GameCreationToggle from '../components/Main/GameCreationToggle';
-import GameJoinForm from '../components/Main/GameJoinForm';
-import GameCreateButton from '../components/Main/GameCreateButton';
-import Footer from '../components/Main/Footer';
-import ClientWrapper from '../components/Main/ClientWrapper';
+import NavbarComponent from '@components/Main/Navbar';
+import Header from '@components/Main/Header';
+import Footer from '@components/Main/Footer';
+import ClientWrapper from '@components/Main/ClientWrapper';
 
 export default function MainPage() {
     return (
